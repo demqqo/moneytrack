@@ -56,6 +56,13 @@ h4 {
 .green{
   color: rgb(84, 204, 110);
 }
+}
+.green-box{
+  box-shadow:rgb(84, 204, 110) 5px 0px 0px; 
+}
+.red-box{
+  box-shadow:rgb(175, 33, 52) 5px 0px 0px; 
+}
 input{ 
   width: 100%;
   border-radius: 1px;
