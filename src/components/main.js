@@ -8,6 +8,9 @@ const Main = () => {
     <div className='mt-5'>
       <p className="fw-semibold">YOUR BALANCE</p>
       <h1>$260.00</h1>
+      <Total/>
+      <History/>
+      <Newtransaction />
     </div>
   )
 }
