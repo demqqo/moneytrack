@@ -49,6 +49,13 @@ h4 {
   box-shadow: grey -0.04em 0.04em 2px ;
   
 }
+
+.red{
+  color: rgb(175, 33, 52);
+}
+.green{
+  color: rgb(84, 204, 110);
+}
 input{ 
   width: 100%;
   border-radius: 1px;
