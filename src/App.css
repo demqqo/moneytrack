@@ -81,3 +81,21 @@ input{
   background-color:#8876e0;
   color:white;
 }
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -130%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list  :hover .delete-btn {
+  opacity: 1;
+}
